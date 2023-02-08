@@ -6,7 +6,7 @@
     combos {
         compatible = "zmk,combos";
         combo_lwr {
-            timeout-ms = <50000>;
+            timeout-ms = <500>;
             key-positions = <25 39>;
             bindings = <&mo 1>;
         };
