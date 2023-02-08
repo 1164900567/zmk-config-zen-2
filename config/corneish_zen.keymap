@@ -7,7 +7,7 @@
         compatible = "zmk,combos";
         combo_lwr {
             timeout-ms = <500>;
-            key-positions = <25 39>;
+            key-positions = <24 38>;
             bindings = <&mo 1>;
         };
     };
