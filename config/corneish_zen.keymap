@@ -7,7 +7,7 @@
         compatible = "zmk,combos";
         combo_lwr {
             timeout-ms = <600>;
-            key-positions = <24 38>;
+            key-positions = <24 37>;
             bindings = <&mo 1>;
         };
     };
@@ -39,12 +39,12 @@
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
-// |      |  1  |  2  |  3  |  0  |     ||  7  |  8  |  9  |  0  |     |     |
+// |      |  1  |  2  |  3  |     |     ||  7  |  8  |  9  |  0  |     |     |
 // |      |  4  |  5  |  6  |     |     ||  4  |  5  |  6  |LBKT |RBKT |BSLH |
 // |      |  7  |  8  |  9  |     |     ||  1  |  2  |  3  |MINUS|EQUAL|     |
 //                    |     |     |     ||     |     |     |
                         bindings = <
-   &trans  &kp N1  &kp N2   &kp N3  &kp N0  &trans  &kp N7  &kp N8   &kp N9 &kp N0     &trans    &trans
+   &trans  &kp N1  &kp N2   &kp N3  &trans  &trans  &kp N7  &kp N8   &kp N9 &kp N0     &trans    &trans
    &trans  &kp N4  &kp N5   &kp N6  &trans  &trans  &kp N4  &kp N5   &kp N6 &kp LBKT   &kp RBKT  &kp BSLH
    &trans  &kp N7  &kp N8   &kp N9  &trans  &trans  &kp N1  &kp N2   &kp N3 &kp MINUS  &kp EQUAL &trans
                           	   &trans  &trans  &trans  &trans  &trans   &trans
