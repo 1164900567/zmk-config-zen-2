@@ -3,17 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  // Combo Keys
-  //  combos {
-  //      compatible = "zmk,combos";
-  //      combo_lwr {
-  //          timeout-ms = <300>;
-  //          key-positions = <24 37>;
-  //          bindings = <&mo 1>;
-  //      };
-  //  };
-  
-  // Tap Keys
+
   / {
     behaviors {
         td0: tap_dance_0 {
