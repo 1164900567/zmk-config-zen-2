@@ -24,7 +24,7 @@
         };
     };
     behaviors {
-        td0: tap_dance_1 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
@@ -54,6 +54,7 @@
                    &kp LALT &td0 &kp SPACE &kp BSPC &mo 2 &kp LGUI
                         >;
                 };
+                
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
@@ -68,7 +69,7 @@
                         &trans    &trans    &trans   &trans  &trans       &trans
                         >;
                 };
-
+                
                 raise_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
