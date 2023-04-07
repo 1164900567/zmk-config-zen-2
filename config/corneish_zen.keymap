@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <250>;
             bindings = <&kp LALT>, <&mo 1>;
         };
     };
@@ -73,12 +73,12 @@
                 raise_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
-// |     |    |     |     |EQUAL|MINUS||  7 |  8  |  9  |  0  |LBKT |RBKT|
+// |TILDE|    |     |     |EQUAL|MINUS||  7 |  8  |  9  |  0  |LBKT |RBKT|
 // |EQUAL|    |     |     |STAR |FSLH ||  4 |  5  |  6  |PSCRN| UP |GRAVE|
 // |     |    |     |     |     |     ||  1 |  2  |  3  |LEFT |DOWN|RIGHT|
 //                  |     |     |     ||    |     |BSLH|
                         bindings = <
-   &trans    &trans &trans &trans &kp EQUAL &kp MINUS  &kp N7 &kp N8 &kp N9 &kp N0    &kp LBKT  &kp RBKT
+   &kp TILDE &trans &trans &trans &kp EQUAL &kp MINUS  &kp N7 &kp N8 &kp N9 &kp N0    &kp LBKT  &kp RBKT
    &kp EQUAL &trans &trans &trans &kp STAR  &kp FSLH   &kp N4 &kp N5 &kp N6 &kp PSCRN &kp UP    &kp GRAVE
    &trans    &trans &trans &trans &trans    &trans     &kp N1 &kp N2 &kp N3 &kp LEFT  &kp DOWN  &kp RIGHT
                            &trans &trans    &trans     &trans &trans &kp BSLH
