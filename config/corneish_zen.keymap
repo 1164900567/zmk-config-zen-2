@@ -7,7 +7,7 @@
   //  combos {
   //      compatible = "zmk,combos";
   //      combo_bt {
-  //          timeout-ms = <500>;
+  //          timeout-ms = <300>;
   //          key-positions = <39 40>;
   //          bindings = <&mo 3>;
   //      };
