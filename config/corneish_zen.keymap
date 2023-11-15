@@ -4,14 +4,14 @@
 
 / {
   // Combo Keys
-      combos {
-          compatible = "zmk,combos";
-          combo_bt {
-              timeout-ms = <180>;
-              key-positions = <40 41>;
-              bindings = <&mo 3>;
-          };
-      };
+  // combos {
+  //      compatible = "zmk,combos";
+  //      combo_bt {
+  //          timeout-ms = <180>;
+  //          key-positions = <40 41>;
+  //          bindings = <&mo 3>;
+  //      };
+  //  };
   
   // Tap Keys
     behaviors {
@@ -52,7 +52,7 @@
 // |     |     | INS |HOME |PG_UP|     ||    |    |    |PSCRN|SLCK |PAUSE_BREAK|
 // |     |     | DEL | END |PG_DN|     ||    |    |    |LBKT | UP  |   RBKT    |
 // |     |     |     |     |     |     ||    |    |    |LEFT |DOWN |   RIGHT   |
-//                   |     |     |     ||    |    |    |
+//                   |     |     |     ||    |mo 3|    |
                         bindings = <
   &trans &trans &kp INS &kp HOME &kp PG_UP &trans  &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK
   &trans &trans &kp DEL &kp END  &kp PG_DN &trans  &trans &trans &trans &kp LBKT  &kp UP   &kp RBKT
