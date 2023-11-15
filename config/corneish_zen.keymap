@@ -7,8 +7,8 @@
   //  combos {
   //      compatible = "zmk,combos";
   //      combo_lwr {
-  //          timeout-ms = <300>;
-  //          key-positions = <40 41>;
+  //          timeout-ms = <500>;
+  //          key-positions = <39 40>;
   //          bindings = <&mo 3>;
   //      };
   //  };
@@ -80,7 +80,7 @@
                         bindings = <
   &trans &kp CAPS &kp F1 &kp F2  &kp F3  &kp F4  &kp NUBS &kp N7 &kp N8 &kp N9 &kp N0    &kp DEL
   &trans &trans   &kp F5 &kp F6  &kp F7  &kp F8  &kp LBKT &kp N4 &kp N5 &kp N6 &kp MINUS &kp EQUAL 
-  &trans &trans   &kp F9 &kp F10 &kp F11 &kp F12 &kp RBKT &kp N1 &kp N2 &kp N3 &kp LEFT  &kp GRAVE 
+  &trans &trans   &kp F9 &kp F10 &kp F11 &kp F12 &kp RBKT &kp N1 &kp N2 &kp N3 &KP_DOT   &kp GRAVE 
                          &trans  &trans   &trans &trans   &trans &trans
                         >;
                 };
