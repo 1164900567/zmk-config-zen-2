@@ -6,7 +6,7 @@
   // Combo Keys
   //  combos {
   //      compatible = "zmk,combos";
-  //      combo_lwr {
+  //      combo_bt {
   //          timeout-ms = <500>;
   //          key-positions = <39 40>;
   //          bindings = <&mo 3>;
@@ -21,15 +21,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <180>;
             bindings = <&mo 1>, <&kp LGUI>;
-        };
-    };
-    behaviors {
-        td1: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings =  <&mo 3>, <&kp LGUI>;
         };
     };
   chosen {
